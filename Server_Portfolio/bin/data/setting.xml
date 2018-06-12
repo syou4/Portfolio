@@ -1,0 +1,10 @@
+<PortfolioServer>
+    <Work id = "0">
+        <Password></Password>
+        <ClientName></ClientName>
+        <Title></Title>
+        <Description></Description>
+        <Src></Src>
+        <Img></Img>
+    </Work>
+</PortfolioServer>
