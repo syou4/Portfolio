@@ -1,26 +1,25 @@
-package client
+//package client
 /*
 import client.Connecter
-import client.Inputer
 import client.View
 */
+//import Inputer
 import java.net.*
 
+fun main(args:Array<String>) {
+    /*
+    val connecter : Connecter = Connecter();
+    val inputer : Inputer = Inputer();
+    val view : View = View();
+    */
+    val host = "localhost"
+    val port = 12345
+    val sendData = "hoge".toByteArray()
 
-class Main{
-    fun main(args:Array<String>) {
-        /*
-        val connecter : Connecter = Connecter();
-        val inputer : Inputer = Inputer();
-        val view : View = View();
-        */
-        val host = "localhost"
-        val port = 12345
-        val sendData = "hoge".toByteArray()
+    send(host, port, sendData)
+    println("Sent message")
 
-        send(host, port, sendData)
-
-    }
+    val inputer = Inputer()
 }
 
 fun send(host: String, port: Int, data: ByteArray, senderPort: Int = 0): Boolean {
