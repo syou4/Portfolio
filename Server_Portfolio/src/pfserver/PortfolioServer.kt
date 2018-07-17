@@ -24,8 +24,6 @@ fun main(args: Array<String>) {
 
     System.out.println("rcv Message > " + rcvStr)
 
-    //受信ソケットクローズ
-    rcvSocket.close()
     //2秒待機
     Thread.sleep(2000)
 
@@ -36,7 +34,7 @@ fun main(args: Array<String>) {
     //送信データのバイト配列
     val sendData = sendStr.toByteArray(Charsets.UTF_8)
     //送信パケット生成
-    val sendPkt = DatagramPacket(sendData, sendData.size,Inet4Address.getByName("localhost"),12345)
+    val sendPkt = DatagramPacket(sendData, sendData.size,Inet4Address.getByName("localhost"),12000)
     System.out.println("Responsing ...")
     sendSocket.send(sendPkt)
     System.out.println("Responsed ...")
