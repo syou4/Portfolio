@@ -20,8 +20,13 @@ fun main(args:Array<String>) {
 
     send(host, port, sendData)
     println("Sent message")
+    */
 
     val inputer = Inputer()
+    /*
+    while(true){
+        val inputCommand = readLine()
+    }
     */
 
     //送信
