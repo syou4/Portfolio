@@ -1,10 +1,10 @@
-package client
+//package client
 
-class Inputer
-
-fun main(args:Array<String>) {
-
-
-
-
+public class Inputer{
+    //fun main(args:Array<String>) {
+    //}
+    init {
+        // 初期化処理
+        println("Ho")
+    }
 }
