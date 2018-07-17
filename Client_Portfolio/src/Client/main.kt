@@ -34,7 +34,7 @@ fun main(args:Array<String>) {
     send()
 
     //2秒待機
-    Thread.sleep(100)
+    //Thread.sleep(100)
 
     //受信待ち
     receive()
@@ -63,7 +63,7 @@ fun send(){
 
 fun receive(){
     //受信ソケット
-    var socket = DatagramSocket(12345)
+    var socket = DatagramSocket(12000)
     //受信用バッファ
     var data = ByteArray(128)
     //受信用パケット
