@@ -1,0 +1,4 @@
+/Users/mmasa/Portfolio/Client_Portfolio/src/Client/View.kt
+/Users/mmasa/Portfolio/Client_Portfolio/src/Client/main.kt
+/Users/mmasa/Portfolio/Client_Portfolio/src/Client/Inputer.kt
+/Users/mmasa/Portfolio/Client_Portfolio/src/Client/Connecter.kt
