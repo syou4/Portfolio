@@ -22,10 +22,11 @@ fun main(args:Array<String>) {
     println("Sent message")
     */
 
-    val inputer = Inputer()
+    //val inputer = Inputer()
     /*
     while(true){
         val inputCommand = readLine()
+        if(inputCommand)
     }
     */
 
@@ -33,7 +34,7 @@ fun main(args:Array<String>) {
     send()
 
     //2秒待機
-    Thread.sleep(2000)
+    Thread.sleep(100)
 
     //受信待ち
     receive()
